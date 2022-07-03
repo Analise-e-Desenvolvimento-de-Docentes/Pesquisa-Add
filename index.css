@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.top {
+    width: 100%;
+    height: 20px;
+    background-color: rgb(25, 102, 156);
+}
+
+.menu {
+    width: 700px;
+    margin: auto;
+    background-color: rgb(25, 102, 156);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 5px;
+}
+
+.mainImg {
+    background-color: transparent;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#mainLogo {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.mainTitle {
+    background-color: transparent;
+    width: 70%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mainTitle>h1 {
+    font-size: 25px;
+}
+
+.mainTitle>h2 {
+    font-size: 15px;
+}
+
+.contentBlock {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.contentImg {
+    width: 40%;
+    text-align: center;
+}
+
+.contentHidden {
+    display: none;
+}
+
+.contentText {
+    width: 60%;
+    padding-right: 10%;
+    background-color: rgb(25, 102, 156);
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.access {
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    margin-bottom: 10px;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 17px;
+    padding-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+    border: none;
+    margin-right: 20px;
+}
+
+.access>a {
+    text-decoration: none;
+    color: black;
+    transition: .3s;
+}
+
+.access:hover {
+    background-color: rgb(192, 68, 52);
+}
+
+.access:hover a {
+    color: white;
+}
+
+@media all and (max-width: 700px) {
+    .top {
+        display: none;
+    }
+
+    .menu {
+        width: 100%;
+        margin: auto;
+        background-color: rgb(25, 102, 156);
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        flex-direction: row;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        padding-bottom: 5px;
+        padding-top: 10px;
+    }
+
+    .showSwitch {
+        display: none;
+    }
+
+    .contentHidden {
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .contentBlock {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .contentText {
+        width: 90%;
+        padding-right: 2%;
+        background-color: rgb(25, 102, 156);
+        margin: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 10px;
+        color: white;
+    }
+
+    .contentImg {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 615px) {
+    .mainImg {
+        padding-top: 15px;
+    }
+}
+
+@media all and (max-width: 415px) {
+    .mainImg {
+        padding-top: 30px;
+    }
+}

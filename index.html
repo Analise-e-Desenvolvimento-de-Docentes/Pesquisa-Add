@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADD - Fatec Itu</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="shortcut icon" href="./img/logo_white_add.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="top"></div>
+
+    <!--MENU-->
+    <div class="menu">
+        <div class="mainImg">
+            <img src="./img/logo_white_add.png" alt="Logo do ADD pesquisas" id="mainLogo">
+        </div>
+        <div class="mainTitle">
+            <h1>Análise e Desenvolvimento de Docentes</h1>
+            <h2>"O design já é melhor que o Siga" ;)</h2>
+        </div>
+    </div>
+
+    <!--Content block-->
+    <div class="contentBlock">
+
+        <div class="contentImg showSwitch">
+            <img src="./img/logo_white.png" alt="">
+        </div>
+
+        <div class="contentText">
+            <h1>O que é o ADD?</h1>
+            <p>O ADD, Análise e Desenvolvimento de Docentes (Docentes, e não Sistemas hein), é um sistema super moderno
+                e revolucionário que já existe nos EUA há um tempão (como tudo chega atrasado aqui, vamos implantar só
+                agora).
+            </p>
+            <p>
+                O ADD consiste em uma plataforma para avaliarmos nossos queridos professores da Fatec daquela cidade de
+                três letras que lembra UTI. Todos os alunos de ADS podem participar e contribuir para um melhor ambiente
+                na faculdade! Os resultados coletados serão compartilhados e atualizados neste mesmo site como uma
+                espécie de ranking, mostrando a avaliação média de cada docente da instituição.
+            </p>
+
+            <div class="buttons">
+                <div class="access" onclick="form();"><a>Avaliar meus profs!</a></div>
+                <div class="access" onclick="info();"><a>Sobre o site.</a></div>
+            </div>
+
+        </div>
+
+        <div class="contentImg contentHidden">
+            <img src="./img/logo_white.png" alt="">
+        </div>
+    </div>
+
+    <script>
+        function info() {
+            alert(
+                "INFORMAÇÕES: O presente site não tem qualquer envolvimento com a administração da Fatec Itu, é feito por alunos com o intuito de melhorar continuamente a qualidade das aulas ministradas na instituição."
+            );
+        }
+
+        function form() {
+            window.open('https://forms.gle/LrcDgRQEjQGpv5KJA', '_blank').focus();
+        }
+    </script>
+
+</body>
+
+</html>
