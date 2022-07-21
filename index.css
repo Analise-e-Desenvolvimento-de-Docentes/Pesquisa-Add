@@ -195,7 +195,7 @@ body {
 }
 
 .edicao {
-    background-color: rgb(25, 102, 156);
+    background-color: white;
     padding: 5px;
     border-radius: 5px;
 }
@@ -203,4 +203,10 @@ body {
 .EdDesc {
     background-color: transparent;
     font-size: medium;
+    transition: .3s;
+}
+
+.EdDesc:hover {
+    color: rgb(16, 56, 116);
+    font-size: large;
 }
