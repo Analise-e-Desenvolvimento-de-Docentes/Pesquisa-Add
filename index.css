@@ -179,3 +179,18 @@ body {
         padding-top: 30px;
     }
 }
+
+.resultados {
+    width: 100%;
+    text-align: center;
+}
+
+.resultTitle {
+    font-size: medium;
+}
+
+.edicao {
+    background-color: rgb(25, 102, 156);
+    padding: 5px;
+    border-radius: 5px;
+}
