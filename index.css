@@ -187,6 +187,7 @@ body {
 
 .resultados > a {
     text-decoration: none;
+    color: black;
 }
 
 .resultTitle {
