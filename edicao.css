@@ -1,0 +1,125 @@
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+#back {
+    background-color: rgba(54, 136, 195, 0.785);
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    transition: .3s;
+}
+
+#back:hover {
+    background-color: rgb(25, 102, 156);
+    color: white;
+}
+
+.top {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.text {
+    width: 95%;
+    margin: auto;
+    background-color: rgba(54, 136, 195, 0.785);
+    border-radius: 5px;
+    padding: 5%;
+    text-align: left;
+}
+
+.text>h3 {
+    font-weight: 300;
+}
+
+.legenda {
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.docente {
+    width: 30%;
+    margin-left: 3%;
+}
+
+.avBlock {
+    width: 90%;
+    margin: auto;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.secBlock {
+    background-color: rgba(54, 136, 195, 0.785);
+    width: 100%;
+    margin: 0px;
+    font-size: large;
+    text-align: center;
+}
+
+.comentBloco {
+    background-color: rgba(82, 153, 204, 0.705);
+    border-radius: 5px;
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+@media all and (max-width: 1500px) {
+    .top {
+        width: 80%;
+        margin-top: 10px;
+    }
+
+    .legenda {
+        width: 70%;
+    }
+
+    .docente {
+        width: 40%;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .top {
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    .legenda {
+        width: 80%;
+    }
+
+    .docente {
+        width: 90%;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .top {
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    .legenda {
+        width: 100%;
+    }
+
+    .docente {
+        width: 95%;
+    }
+}

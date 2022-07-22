@@ -187,7 +187,7 @@ body {
 
 .resultados > a {
     text-decoration: none;
-    color: black;
+    
 }
 
 .resultTitle {
@@ -195,18 +195,16 @@ body {
 }
 
 .edicao {
-    background-color: white;
+    background-color: rgb(25, 102, 156);
+    color: white;
     padding: 5px;
     border-radius: 5px;
-}
-
-.EdDesc {
-    background-color: transparent;
-    font-size: medium;
     transition: .3s;
 }
 
-.EdDesc:hover {
-    color: rgb(16, 56, 116);
-    font-size: large;
+
+
+.edicao:hover {
+    background-color: rgb(67, 209, 65);
+    color: black;
 }
